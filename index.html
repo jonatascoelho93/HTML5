@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="tags,css,html5">
     <meta name="description" content="Aulas de HTML5 com CSS">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -22,24 +23,52 @@
             </header>
             <p>Aulas de desenvolvimentos para web. Sites, hotsites e sites responsivos.</p>
         </article>
-        <article>
-            <p>Imagem<br />
-                <img src="imagens/tux.jpg" width="300">
-            </p>
-        </article>
-        <article>
-            <p>Video: Killer Tux Linux<br />
-                <video controls><!--controls autoplay-->
-                    <source src="videos/Killer_Tux_Linux.mp4" type="video/mp4">
-                </video>
-            </p>
-        </article>
-        <article>
-            <p>Audio: Evolution of Music - Pentatonix<br />
-                <audio src="audios/Evolution_of_Music-Pentatonix.mp3" controls></audio>
-            </p>
-        </article>
 
+        <article>
+            <header>Tipos de vínculos</header>
+            <p>
+                Link absoluto: <br />
+                <a href="https://www.impacta.com.br" target="_blanck">Impacta Online</a>
+                <!--target="_blanck" abrir link em nova aba-->
+            </p>
+            <hr />
+            <p>
+                Link relativo: <br />
+                <a href="midia/midias.html">Midias</a>
+            </p>
+            <hr />
+            <p>Link com imagens: <br />
+                <a href="https://google.com/" target="_blanck"><img src="imagens/google_lupa.jpg" width="200" /></a>
+            </p>
+            <hr />
+            <p>
+                Link para e-mail: <br />
+                <a href="mailto:jonatas@coelho.com.br&subject=Aulas de HTML5&cc=jonatas@coelho.com">Contato</a>
+            </p>
+            <hr />
+            <p>
+                Link para Telefone: <br />
+                <a href="tel:11 4189-2667">11 4189-2667</a>
+            </p>
+            <hr />
+            <p>
+                Link com ângora: <br />
+                <a href="midia/midias.html#video">Killer Tux Linux</a>
+            </p>
+            <hr />
+            <p>
+                Link para Download: <br />
+                <a href="docs/tux.zip">Clique aqui para download</a>
+            </p>
+            <hr /> <!--quebra temática em uma página HTML (por exemplo, uma mudança de tópico)-->
+            <p>
+                <div itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name">Jonatas Santos Coelho</span>
+                    <span itemprop="jobTitle">Desenvolvedor Java</span>
+                    <span itemprop="url">github.com/jonatascoelho93/</span>
+                </div>
+            </p>
+        </article>
     </Section>
 
     <aside>
